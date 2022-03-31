@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html style="height: 100%;"lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+            font-style: italic;
+        }
+        table, th, td{
+            border: 1px solid #000;
+        }
+        ol{
+            color: #0e72f0;
+            font-style: italic;
+        }
+        ul{
+            color: #0e47f0;
+            font-weight: bold;
+
+        }
+
+    </style>
+</head>
+<body style="margin:0; background-image: url(https://cdn.pixabay.com/photo/2022/03/23/07/47/botanical-7086609_960_720.jpg); height: 100%; ">
+    <header style="height: 10%; width: 100%; border: 1px solid #ffffff; color: #ffffff; background-color: #4e95e5;">
+        header
+    </header>    
+    <div style="height:auto">
+        <h1 style="font-size: 25px; color: #920898;"><b>50 Class</b></h1>
+        <h2 style="font-size:17px; color:#920898"><i>Welcome to our website</i></h2>    
+        <form>
+            <label for="email">Email:</label>
+            <input  type="email" name="email"  style="width: 30%;"><br><br>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" maxlength="30" minlength="2" style="width: 30%;"><br><br>
+            <label for="date">Date of birth:</label>
+            <input type="date" name="date"><br>
+            <label for="grade">Number of grade:</label>
+            <input type="number" name="date" max="15" min="0" onkeydown="return false"><br><br>
+            <button style="width: 20px; height: 10px;background-color: #c3158e;color: #ffffff;">Save</button>
+
+        </form>
+     </div>
+     <div>
+         <table style="width: 90%;">
+             <thead style="background-color: #3ab15c;">
+                 <th>Full Name</th>
+                 <th>Date of birth</th>
+                 <th>Email</th>
+             </thead>
+             <tr>
+                 <td>Jacob</td>
+                 <td>Inddigou</td>
+                 <td>Jacob@gmail.com</td>
+             </tr>
+             <tr>        
+                <td>Asaf</td>
+                <td>Avraham</td>
+                <td>Asaf@gmail.com</td
+            ></tr>
+             <tr>
+                <td>Motit</td>
+                <td>Drory</td>
+                <td>Morit@gmail.com</td>
+             </tr>
+             <tr>
+                <td>Gad</td>
+                <td>Hezkiyaho</td>
+                <td>Gad@gmail.com</td>
+             </tr>
+             <tr>
+                <td>Takala</td>
+                <td>Mekonen</td>
+                <td>tak@gmail.com</td>
+             </tr>
+         </table>
+         <ol>
+             <li>Jacob Inddigou
+                 <ul>
+                     <li>FullStack DEV</li>
+                     <li>Design</li>
+                     <li>Bible</li>
+                 </ul>
+             </li>
+             <li>
+                <ul>Gad Hezkiyaho
+                    <li>Cooking</li>
+                    <li>Economic</li>
+                    <li>Sport</li>
+                </ul>
+            </li>
+            <li>
+                <ul>Morit Drory
+                    <li>Math</li>
+                    <li>English</li>
+                    <li>Chemistry</li>
+                </ul>
+            </li>
+            <li>
+                <ul>Asaf Avraham
+                    <li>Computer Science</li>
+                    <li>Horse Riding</li>
+                    <li>Golf</li>
+                </ul>
+            </li>
+            <li>Takala Mekonen
+                <ul>
+                    <li>Adminstration</li>
+                    <li>Time Managing</li>
+                    <li>History</li>
+                </ul>
+            </li>
+         </ol>
+     </div>
+     <footer style="position:fixed; bottom: 0; width:100%; height:10%; border:#ffffff; background-color: #4e95e5; color: #ffffff;">
+footer
+     </footer>
+</body>
+</html>
